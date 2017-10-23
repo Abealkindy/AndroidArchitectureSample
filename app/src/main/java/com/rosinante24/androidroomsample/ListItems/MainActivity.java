@@ -46,7 +46,9 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
         adapter = new RecyclerSomethingAdapter(new ArrayList<SomethingModel>(), this);
         listSomething.setLayoutManager(new LinearLayoutManager(this));
         listSomething.setAdapter(adapter);
+        // membuat ViewModel sebagai pusat pemrosesan data dari MainActivity
         viewModel = ViewModelProviders.of(this).get(SomethingListViewModel.class);
+        // method observe(), yang memungkinkan MainActivity untuk mengikuti data sari ViewModel
         viewModel.getItemAndPersonList().observe(MainActivity.this, new Observer<List<SomethingModel>>() {
             @Override
             public void onChanged(@Nullable List<SomethingModel> somethingModels) {

@@ -12,8 +12,13 @@ import java.util.List;
 /**
  * Created by Rosinante24 on 23/10/17.
  */
-
+// ViewModel dari aplikasi ini yang berguna sebagai pembantu dalam mengatur dan menampilkan list yang kita buat,
+// ViewModel ini harus extend kepada AndroidViewModel,
+// dan harus terbebas dari semua yang berhubungan dengan UI, seperti Activity, dan Fragment,
+// dan ViewModel ini berisikan semua yang dibutuhkan oleh MainActivity, dan sekarang kita hubungkan dengan LiveData
 public class SomethingListViewModel extends AndroidViewModel {
+
+    // LiveData adalah pembungkus data, yang memungkinkan Class yang akan terhubung, mengikuti perubahan data dari LiveData
     private final LiveData<List<SomethingModel>> itemAndPersonList;
     private AppDatabase appDatabase;
 

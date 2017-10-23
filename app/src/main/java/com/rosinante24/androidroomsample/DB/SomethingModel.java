@@ -9,12 +9,16 @@ import java.util.Date;
 /**
  * Created by Rosinante24 on 23/10/17.
  */
+// untuk menunjukan bahwa kita membuat tabel berdasarkan Model/class ini.
 @Entity
 public class SomethingModel {
+    // untuk menggenerate primary key secara auto.
     @PrimaryKey(autoGenerate = true)
     public int id;
     private String item_name;
     private String person_name;
+    // untuk mengkonversi tipe data melalui class DateConverter.java,
+    // karena tipe data Date, tidak bisa langsung diolah oleh SQL.
     @TypeConverters(DateConverter.class)
     private Date something_date;
 
