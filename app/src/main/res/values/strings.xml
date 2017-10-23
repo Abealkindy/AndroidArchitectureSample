@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android Room Sample</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_somethingactivity">AddSomethingactivity</string>
+    <string name="hint_1">Item Name</string>
+    <string name="hint_2">Person Name</string>
+    <string name="textButton">Select Date</string>
+    <string name="title">Add Item</string>
+</resources>

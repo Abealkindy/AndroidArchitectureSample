@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="jarak20dp">20dp</dimen>
+    <dimen name="size25sp">25sp</dimen>
+    <dimen name="jarak5dp">5dp</dimen>
+    <dimen name="jarak10dp">10dp</dimen>
+    <dimen name="jarak45dp">45dp</dimen>
+    <dimen name="jarak80dp">80dp</dimen>
+    <dimen name="jarak30dp">30dp</dimen>
+    <dimen name="size30sp">30sp</dimen>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/jarak20dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.rosinante24.androidroomsample.AddItem.AddSomethingactivity"
+    tools:showIn="@layout/activity_add_somethingactivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/jarak30dp"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size30sp" />
+
+    <EditText
+        android:id="@+id/edit_text_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/jarak45dp"
+        android:layout_margin="@dimen/jarak5dp"
+        android:background="@drawable/background_edit_text"
+        android:hint="@string/hint_1"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edit_text_person_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/jarak45dp"
+        android:layout_margin="@dimen/jarak5dp"
+        android:background="@drawable/background_edit_text"
+        android:hint="@string/hint_2"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button_select_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/jarak5dp"
+        android:background="@drawable/ground_button"
+        android:text="@string/textButton"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
