@@ -28,6 +28,8 @@
         android:layout_margin="@dimen/jarak5dp"
         android:background="@drawable/background_edit_text"
         android:hint="@string/hint_1"
+        android:inputType="text"
+        android:maxLines="1"
         android:textAlignment="center" />
 
     <EditText
@@ -37,6 +39,8 @@
         android:layout_margin="@dimen/jarak5dp"
         android:background="@drawable/background_edit_text"
         android:hint="@string/hint_2"
+        android:inputType="text"
+        android:maxLines="1"
         android:textAlignment="center" />
 
     <Button
