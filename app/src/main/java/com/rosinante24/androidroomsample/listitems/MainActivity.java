@@ -1,4 +1,4 @@
-package com.rosinante24.androidroomsample.ListItems;
+package com.rosinante24.androidroomsample.listitems;
 
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
@@ -10,12 +10,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 
-import com.rosinante24.androidroomsample.AddItem.AddSomethingactivity;
-import com.rosinante24.androidroomsample.DB.SomethingModel;
+import com.rosinante24.androidroomsample.additem.AddSomethingactivity;
+import com.rosinante24.androidroomsample.db.SomethingModel;
 import com.rosinante24.androidroomsample.R;
 
 import java.util.ArrayList;

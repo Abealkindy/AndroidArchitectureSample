@@ -1,4 +1,4 @@
-package com.rosinante24.androidroomsample.DB;
+package com.rosinante24.androidroomsample.db;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.persistence.room.Dao;

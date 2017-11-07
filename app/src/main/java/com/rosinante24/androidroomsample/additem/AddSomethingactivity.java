@@ -1,4 +1,4 @@
-package com.rosinante24.androidroomsample.AddItem;
+package com.rosinante24.androidroomsample.additem;
 
 import android.app.DatePickerDialog;
 import android.arch.lifecycle.ViewModelProviders;
@@ -11,7 +11,7 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.rosinante24.androidroomsample.DB.SomethingModel;
+import com.rosinante24.androidroomsample.db.SomethingModel;
 import com.rosinante24.androidroomsample.R;
 
 import java.util.Calendar;

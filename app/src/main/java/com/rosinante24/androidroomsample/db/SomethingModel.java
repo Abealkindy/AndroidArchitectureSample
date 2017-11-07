@@ -1,4 +1,4 @@
-package com.rosinante24.androidroomsample.DB;
+package com.rosinante24.androidroomsample.db;
 
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;

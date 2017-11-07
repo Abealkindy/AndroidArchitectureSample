@@ -1,11 +1,11 @@
-package com.rosinante24.androidroomsample.ListItems;
+package com.rosinante24.androidroomsample.listitems;
 
 import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
 import android.arch.lifecycle.LiveData;
 
-import com.rosinante24.androidroomsample.DB.AppDatabase;
-import com.rosinante24.androidroomsample.DB.SomethingModel;
+import com.rosinante24.androidroomsample.db.AppDatabase;
+import com.rosinante24.androidroomsample.db.SomethingModel;
 
 import java.util.List;
 

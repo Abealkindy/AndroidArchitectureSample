@@ -1,4 +1,4 @@
-package com.rosinante24.androidroomsample.ListItems;
+package com.rosinante24.androidroomsample.listitems;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.rosinante24.androidroomsample.DB.SomethingModel;
+import com.rosinante24.androidroomsample.db.SomethingModel;
 import com.rosinante24.androidroomsample.R;
 
 import java.util.List;
